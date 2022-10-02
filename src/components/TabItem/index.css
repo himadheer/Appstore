@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.tab-item {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 900;
+  color: #1e293b;
+  border: none;
+  background-color: transparent;
+  margin: 0px;
+  padding: 5px;
+  border: 2px solid #dfe2e5;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .tab-item {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 8px;
+  }
+}
+.active-tab {
+  color: blue;
+  border-color: rgb(164, 214, 48);
+}
+
+@media screen and (min-width: 768px) {
+  .active-tab {
+    padding-bottom: 12px;
+  }
+}
